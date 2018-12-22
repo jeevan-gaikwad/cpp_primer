@@ -2,14 +2,17 @@
 #include<iostream>
 #include<cctype>
 #include<iterator>
+#include<vector>
 
 using std::cout; using std::cin; using std::endl;
 int main(void) {
 	
-	int arr=[0,1,2,3,4,-3,5,6,7];
+	//std::vector<int> arr=[0,1,2,3,4,-3,5,6,7];
+	int arr[]={0,1,2,3,4,-3,5,6,7};
 
-	int *p_begin=std::begin(arr);
-	int *p_end=std::end(arr);
+	//auto p_begin=std::begin(arr);
+	int  *p_begin=std::begin(arr);
+	auto p_end=std::end(arr);
 	
 	while(p_begin!=p_end && *p_begin>=0) {
 		++p_begin;
