@@ -7,9 +7,11 @@
 
 int main(void) {
 	std::stack<int> sts;
+	
 	sts.push(5);
 	sts.push(10);
- 	PRINT("Stack top");	
+	
+ 	PRINT("Stack top"<<sts.top());	
 
 
 	return EXIT_SUCCESS;
