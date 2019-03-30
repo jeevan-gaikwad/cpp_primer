@@ -1,3 +1,4 @@
+/* Test comment */
 #include<iostream>
 
 struct Test_class {
