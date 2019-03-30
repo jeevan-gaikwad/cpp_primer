@@ -1,3 +1,4 @@
+/* Following program demonstrates fuction templates with operator overloading in c++ */
 #include<iostream>
 #include<vector>
 using namespace std;
